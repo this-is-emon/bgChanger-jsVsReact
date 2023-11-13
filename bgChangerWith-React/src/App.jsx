@@ -8,6 +8,9 @@ function App() {
       className="w-full h-screen duration-200"
       style={{ backgroundColor: color }}
     >
+      <h1 className=" text-center py-10">
+        `Click` the buttons below to change the color of the background
+      </h1>
       <div className="button-div-container fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
         <div className="button-div bg-white flex flex-wrap justify-center gap-3 shadow-lg px-3 py-2 rounded-3xl">
           <button
